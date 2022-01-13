@@ -41,7 +41,7 @@ NOTE: If you have installed the Azure CLI with the default apt package on Ubuntu
 ### Installing Azure software radio OOT
 
 ```
-pip install -r python/requirements.txt
+pip install -r python/requirements.txt  <------contents of this doc are unknown.
 
 mkdir build
 cd build

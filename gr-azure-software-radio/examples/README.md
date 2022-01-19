@@ -21,10 +21,10 @@ In the example, you can see the correct way to input a value into the Azure Key 
 
 To run the flowgraph correctly, you must setup a Key Vault resource in Azure and replace the KeyVault Name with your Key Vault resource name.
 
-Also, the example assume you have the secretscramble key in your Key Vault. See https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-cli to get started with Key Vault
+Also, the example assumes you have a secret and key in your Key Vault. See https://docs.microsoft.com/en-us/azure/key-vault/secrets/quick-create-cli to get started with Key Vault
 
 
-When your resources are ready in Azure, the flowgraph should pull the value from Azure Key Vault, and scramble the sequence with that pulled value.
+When your resources are ready in Azure, the flowgraph should pull the secret from Azure Key Vault with the key value.
 
 If you want to enable the Azure Blob sink block, you will need to also setup a storage account and container in that account to store the data. The point of showing this is so that one can see how to use Azure Key Vault to get connection strings to use with Azure services, like Blob.
 
